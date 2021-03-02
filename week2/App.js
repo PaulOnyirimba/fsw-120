@@ -2,11 +2,14 @@
 
 
 import React from "react"
+import infobox from "./infobox/src/infobox"
 
 function App() {
     return (
-        <div>
-            <h1>Code goes here</h1>
+        <div classname="info">
+            <infobox
+            
+            />
         </div>
     )
 }
