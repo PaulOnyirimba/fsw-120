@@ -1,5 +1,6 @@
 import React from 'react'
 import Die from './Die'
+import './App.css'
 
 class Dice extends React.Component {
     constructor(){
