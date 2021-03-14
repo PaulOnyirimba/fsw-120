@@ -1,0 +1,33 @@
+.grid-container {
+  display: grid;
+  grid-template-rows: 200px 300px;
+  grid-template-columns: 300px 300px;
+  grid-gap: 6px;
+}
+
+.squares {
+  background: grey;
+  color: black;
+  padding: 12px;
+  text-align: center;
+  font-size: large;
+  height: 80px;
+  width: 80px
+}
+
+.buttons {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px;
+}
+
+.tinybutton {
+  color: black;
+  padding: 6px;
+  text-align: center;
+  border-radius: 4px
+}
+body {
+  background-color: grey;
+}
+
