@@ -32,7 +32,7 @@ render() {
         type="text"
         name="inputName"
         placeholder="Applicant's Name"
-        onChange={this.state.name}
+        onChange={this.handleChange}
         // style={{width:90%}}
         /><br />
         <p name="dispName" style={{textAlign:"center"}}>{this.state.name}</p>
