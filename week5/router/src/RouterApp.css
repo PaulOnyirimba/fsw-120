@@ -1,0 +1,22 @@
+.RouterNav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: darkblue;
+    color: white;
+}
+.RouterNavLinks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.RouterFooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: darkblue;
+    color: white;
+}
+body {
+background-color: cyan;
+}
