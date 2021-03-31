@@ -1,7 +1,7 @@
 import React from 'react'
 import BadgeList from './BadgeList.js'
 import { Container, Row, Col } from 'react-bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 class FormBadge extends React.Component {

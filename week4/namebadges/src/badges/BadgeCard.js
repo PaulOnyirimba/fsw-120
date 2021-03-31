@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container, Row, Col } from 'react-bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 const BadgeCard = ( {firstName, lastName, email, birthPlace, phoneNbr, favefood, about, bgcolor} ) => {
     return (
@@ -18,7 +18,7 @@ const BadgeCard = ( {firstName, lastName, email, birthPlace, phoneNbr, favefood,
                 <Row style={{padding:"10px"}}>
                     <Col sm={1}></Col>
                     <Col sm={5}>Birth Place: {birthPlace}</Col>
-                    <Col sm={5}>Favorite Food: {faveFood}</Col>
+                    <Col sm={5}>Favorite Food: {favefood}</Col>
                     <Col sm={1}></Col>
                 </Row>
                 <Row style={{padding:"10px"}}>
