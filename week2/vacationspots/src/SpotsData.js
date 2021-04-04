@@ -1,6 +1,6 @@
 const SpotsData = [
     {
-     id: 1
+     id: 1,
      place: "Meridian, Idaho",
     price: 40,
     timeToGo: "Spring",
@@ -8,7 +8,7 @@ const SpotsData = [
     color: "white"
     },
     {
-     id: 2
+     id: 2,
      place: "Cancun",
     price: 900,
     timeToGo: "Winter",
