@@ -1,5 +1,5 @@
 import React from 'react'
-import './ForumApp.css'
+import './BlogApp.css'
 import Nav from './Components/Nav'
 import Footer from './Components/Footer'
 import Home from './Home'
@@ -17,6 +17,7 @@ function RouterApp() {
                     <Switch>
                         <Route exact path='/ColumnForm'><ColumnForm /></Route>
                         <Route path='/'><Home /></Route>
+                        <Route path='ColumnList'><ColumnList /></Route>
                     </Switch>
                 </Router>
                 <Footer />

@@ -1,5 +1,5 @@
 import React from 'react'
-// import './ForumApp.css'
+// import './BlogApp.css'
 import {Link, Switch, Route} from 'react-router-dom'
 import Home from '../Home'
 import ColumnForm from '../ColumnForm'
@@ -21,6 +21,9 @@ function Nav () {
                     <Route path= '/columnform'>
                         <ColumnForm />
                     </Route>
+                    {/* <Route path= '/ForumApp'>
+                        <ForumApp />
+                    </Route> */}
                 </Switch>
                 
             </div>
